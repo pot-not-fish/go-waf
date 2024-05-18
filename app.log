@@ -1,0 +1,13 @@
+2024/05/14 00:41:56 127.0.0.1 - [Mon, 13 May 2024 16:41:56 UTC] "GET /protect/sql warning: exist annotation
+2024/05/14 00:42:58 127.0.0.1 - [Mon, 13 May 2024 16:42:58 UTC] "GET /protect/sql warning: risk function
+2024/05/14 00:43:12 127.0.0.1 - [Mon, 13 May 2024 16:43:12 UTC] "GET /protect/sql warning: risk sql
+2024/05/14 00:43:33 http: URL query contains semicolon, which is no longer a supported separator; parts of the query may be stripped when parsed; see golang.org/issue/25192
+2024/05/14 00:43:54 127.0.0.1 - [Mon, 13 May 2024 16:43:54 UTC] "GET /protect/sql warning: union select
+2024/05/14 00:45:56 127.0.0.1 - [Mon, 13 May 2024 16:45:56 UTC] "POST /protect/xss warning: risk html lable
+2024/05/14 00:46:05 127.0.0.1 - [Mon, 13 May 2024 16:46:05 UTC] "POST /protect/xss warning: risk event
+2024/05/14 00:46:15 127.0.0.1 - [Mon, 13 May 2024 16:46:15 UTC] "POST /protect/xss warning: risk annotation
+2024/05/14 00:46:23 127.0.0.1 - [Mon, 13 May 2024 16:46:23 UTC] "POST /protect/xss warning: risk encoding
+2024/05/14 00:47:24 127.0.0.1 - [Mon, 13 May 2024 16:47:24 UTC] "POST /protect/command warning: risk connector
+2024/05/14 00:47:40 127.0.0.1 - [Mon, 13 May 2024 16:47:40 UTC] "POST /protect/command warning: risk command
+2024/05/14 00:47:47 127.0.0.1 - [Mon, 13 May 2024 16:47:47 UTC] "POST /protect/command warning: risk encoding
+2024/05/14 00:48:23 127.0.0.1 - [Mon, 13 May 2024 16:48:23 UTC] "POST /protect/code warning: risk go function
