@@ -32,7 +32,7 @@ func Init() {
 
 	username := "root" // 使用者名字 如root
 	password := "123456"
-	host := "159.75.186.106"
+	host := "127.0.0.1"
 	port := 3306
 	dbname := "test" // 数据库名字
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:%d)/%s?charset=utf8&parseTime=True&loc=Local", username, password, host, port, dbname)
